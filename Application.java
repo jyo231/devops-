@@ -36,7 +36,27 @@ public class CreateWebSource
         Credentials credentials = new Credentials();
         credentials.setUserName( userName );
         credentials.setPassword( password );
- 
+ #feature202 changes by krishnaon october 2024 on payment gateway module
+class Main {
+
+// create a method
+  public static int square(int num) {
+
+    // return statement
+    return num * num;
+  }
+
+  public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+}
+#end of feature202
         // 1. Create a simple web source
         String webSourceURL = args[3];
         String webSourceXML = 
